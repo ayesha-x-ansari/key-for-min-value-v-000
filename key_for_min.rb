@@ -1,4 +1,4 @@
-#ikea = {:chair => 25, :table => 85, :mattress => 450, :tv => 5, :camera => 7}
+ikea = {:chair => 25, :table => 85, :mattress => 450, :tv => 5, :camera => 7}
 
 def key_for_min_value(ikea)
   min_value =  9999999
