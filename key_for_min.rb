@@ -6,11 +6,13 @@ def key_for_min_value(ikea)
   ikea.each do  |key, value| if value < min_value
                     min_value = value
                     min_key   = key
+                    puts min_key
                  else
                     min_value  = value
                  end
                end
                puts min_key
+               puts "ssssssssssssssssssss"
   min_key
 end
  key_for_min_value(ikea)
