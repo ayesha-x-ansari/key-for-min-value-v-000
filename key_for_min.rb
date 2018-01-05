@@ -7,11 +7,6 @@ def key_for_min_value(ikea)
                     min_value = value
                     puts min_value
                     puts min_key
-                 else
-                    puts value
-                    min_key   = key
-                    min_value  = value
-                    puts "aaaaaaaaaaaaa"
                  end
                end
                puts min_key
